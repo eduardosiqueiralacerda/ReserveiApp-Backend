@@ -5,7 +5,7 @@
                 "authProtocol": "default"
             },
             "previewLimit": 50,
-            "server": "mysql://b856c1f3726614:90aac0a1@us-cdbr-east-03.cleardb.com/heroku_8eca68ba256ba54?reconnect=true",
+            "server": "us-cdbr-east-03.cleardb.com",
             "port": 3306,
             "driver": "MySQL",
             "name": "db-reserveiapp",
