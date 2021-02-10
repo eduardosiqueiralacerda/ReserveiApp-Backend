@@ -1,0 +1,17 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "mysql://b856c1f3726614:90aac0a1@us-cdbr-east-03.cleardb.com/heroku_8eca68ba256ba54?reconnect=true",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "db-reserveiapp",
+            "username": "b856c1f3726614",
+            "password": "90aac0a1",
+            "database": "heroku_8eca68ba256ba54"
+        }
+    ]
+}
