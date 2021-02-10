@@ -3,15 +3,15 @@ const router = express.Router();
 
 router.get('/',(req, res) => {
     res.status(200).send({
-        mensagem : 'Usando GET dentro da rota de clientes'
+        mensagem : 'Usando GET dentro da rota de pessoas'
     });
 });
 
-router.get('/:idCliente',(req, res) => {
-    const id = req.params.idCliente;
+router.get('/:codigoPessoa',(req, res) => {
+    const id = req.params.codigoPessoa;
 
     res.status(200).send({
-        mensagem : 'Usando GET dentro da rota de clientes com parametro, com nodemom',
+        mensagem : 'Usando GET dentro da rota de pessoas com parametro',
         id : id
     });
 });
@@ -19,20 +19,20 @@ router.get('/:idCliente',(req, res) => {
 
 router.post('/', (req, res) => {
     res.status(201).send({
-        mensagem: 'Usando POST dentro da rota de clientes'
+        mensagem: 'Usando POST dentro da rota de pessoas'
     });
 });
 
 
 router.patch('/', (req, res) => {
     res.status(201).send({
-        mensagem: 'Usando PATCH dentro da rota de clientes'
+        mensagem: 'Usando PATCH dentro da rota de pessoas'
     });
 });
 
 router.delete('/', (req, res) => {
     res.status(201).send({
-        mensagem: 'Usando DELETE dentro da rota de clientes'
+        mensagem: 'Usando DELETE dentro da rota de pessoas'
     });
 });
 

@@ -1,9 +1,9 @@
 const express = require('express');
 const app = express();
 
-const rotaClientes = require('./routes/clientes');
+const rotaPessoas = require('./routes/pessoas');
 
-app.use('/clientes', rotaClientes);
+app.use('/pessoas', rotaPessoas);
 
 app.use((req, res, next) => {
     const erro = new Error('Rota não encontrada.');
