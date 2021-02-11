@@ -3,7 +3,8 @@ const router = express.Router();
 
 router.get('/',(req, res) => {
     res.status(200).send({
-        mensagem : 'Usando GET dentro da rota de pessoas'
+        CodigoPessoa : 1,
+        NomePessoa : 'Eduardo Siqueira Lacerda'
     });
 });
 
